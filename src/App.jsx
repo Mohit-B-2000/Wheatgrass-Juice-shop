@@ -4,7 +4,7 @@ import AdminPOS from "./Components/AdminPOS";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Wheatgrass-Juice-shop">
       <div className="min-h-screen">
         <Navbar />
         <main className="pt-28 pb-20 px-6">
