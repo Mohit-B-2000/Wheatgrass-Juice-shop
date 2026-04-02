@@ -10,8 +10,10 @@ export default function App() {
         <main className="pt-28 pb-20 px-6">
           <Routes>
             <Route path="/" element={<AdminPOS />} />
-            <Route path="/order" element={<Placeholder title="Order Online" description="Delivery system coming to Panchkula soon." />} />
+            <Route path="/order" 
+            element={<Placeholder title="Order Online" description="Delivery system coming to Panchkula soon." />} />
             <Route path="/about" element={<Placeholder title="The Lab" description="Grown in Panchkula. High-density nutrition." />} />
+            {}
           </Routes>
         </main>
       </div>
